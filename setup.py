@@ -8,7 +8,7 @@ setuptools.setup(
      version='0.1',
      scripts=['cgstatistic'] ,
      author="Dimmy Magalhaes",
-     author_email="https://github.com/dimmykarson/CGStatistic",
+     author_email="dimmyk@gmail.com",
      description="A Docker and AWS utility package",
      long_description=long_description,
      long_description_content_type="text/markdown",
@@ -16,7 +16,7 @@ setuptools.setup(
      packages=setuptools.find_packages(),
      classifiers=[
          "Programming Language :: Python :: 3",
-         "License :: GNU GENERAL PUBLIC LICENSE",
+         "License :: OSI Approved :: MIT License",
          "Operating System :: OS Independent",
      ],
  )
