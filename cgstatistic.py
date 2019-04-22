@@ -50,7 +50,6 @@ class CGStatistic():
         df = self.dataframe.copy()
         if unique_column not in self.data_frame_columns:
             raise f"{unique_column} not in dataframe columns"
-
         unique_filter = df[unique_column].unique()
         for dt in unique_filter:
             x = None
